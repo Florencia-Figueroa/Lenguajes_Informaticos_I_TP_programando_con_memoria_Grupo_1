@@ -192,16 +192,82 @@
         </section>
 
         <!-- SECCIÓN ABEL: archivos testimonios -->
-        <section id="testimonios" class="mb-5">
-            <h2 class="border-bottom pb-2 mb-4">Archivo de Testimonios</h2>
-            
-            <!-- Buscador -->
-            <div class="mb-4">
-                <input type="text" id="buscador-testimonios" class="form-control" placeholder="Buscar testimonio por palabra clave o autor...">
+        <section id="testimonios" class="archivo-testimonios mb-5">
+            <div class="testimonios-heading">
+                <p class="eyebrow">Voces y documentos para recordar</p>
+                <h2>Archivo de testimonios</h2>
+                <p>
+                    Estas citas pertenecen a personas reales y fueron publicadas por Abuelas
+                    de Plaza de Mayo. Cada historia completa está disponible en su fuente.
+                </p>
+            </div>
+
+            <div class="testimonios-buscador mb-4">
+                <label for="buscador-testimonios" class="form-label fw-semibold">Buscar en el archivo</label>
+                <input type="text" id="buscador-testimonios" class="form-control" placeholder="Buscar por nombre o palabra clave..." aria-label="Buscar testimonios y archivos">
             </div>
 
             <div class="row g-4" id="contenedor-testimonios">
-                <!-- testimonios con la clase .tarjeta-testimonio -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="card testimonio-card h-100">
+                        <div class="card-body">
+                            <p class="testimonio-tipo">Identidad restituida</p>
+                            <h3 class="card-title">Juan Cabandié Alfonsín</h3>
+                            <blockquote class="testimonio-cita">
+                                <p>“Viví 25 años con mi identidad falseada”.</p>
+                            </blockquote>
+                            <p class="testimonio-contexto">
+                                Juan recuperó su identidad en 2004. Nació durante el cautiverio
+                                de su madre en la ESMA.
+                            </p>
+                            <a class="testimonio-enlace" href="https://www.abuelas.org.ar/nietas-y-nietos/292" target="_blank" rel="noopener noreferrer">
+                                Leer su historia en Abuelas
+                                <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="card testimonio-card h-100">
+                        <div class="card-body">
+                            <p class="testimonio-tipo">Reencuentro familiar</p>
+                            <h3 class="card-title">Elena Gallinari Abinet</h3>
+                            <blockquote class="testimonio-cita">
+                                <p>“Cuando vi a mi familia sentí que ya los conocía”.</p>
+                            </blockquote>
+                            <p class="testimonio-contexto">
+                                Elena fue la primera niña nacida durante el cautiverio de su
+                                madre cuya identidad restituyó la Justicia.
+                            </p>
+                            <a class="testimonio-enlace" href="https://www.abuelas.org.ar/nietas-y-nietos/258" target="_blank" rel="noopener noreferrer">
+                                Leer su historia en Abuelas
+                                <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="card testimonio-card h-100">
+                        <div class="card-body">
+                            <p class="testimonio-tipo">Memoria de una familia</p>
+                            <h3 class="card-title">Adriana Reinhold</h3>
+                            <blockquote class="testimonio-cita">
+                                <p>“En ella vi la cara de mi hermano, el color de pelo de su mamá y los rulos nuestros”.</p>
+                            </blockquote>
+                            <p class="testimonio-contexto">
+                                Adriana, tía paterna de Florencia Laura Reinhold Siver,
+                                habló del reencuentro con su sobrina, cuya identidad fue
+                                restituida en 2011.
+                            </p>
+                            <a class="testimonio-enlace" href="https://www.abuelas.org.ar/nietas-y-nietos/317" target="_blank" rel="noopener noreferrer">
+                                Leer la historia de Florencia
+                                <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
 

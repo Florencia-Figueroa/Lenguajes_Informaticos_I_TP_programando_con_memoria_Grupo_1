@@ -285,3 +285,109 @@
     color: var(--color-ink);
 }
 
+.testimonios-heading {
+    max-width: 700px;
+    margin: 4rem auto 2.5rem;
+    text-align: center;
+}
+
+.testimonios-heading h2 {
+    margin-bottom: 0.75rem;
+    color: var(--color-ink);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+}
+
+.testimonios-heading > p:last-child {
+    margin-bottom: 0;
+    color: var(--color-muted-light);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.testimonios-buscador {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.testimonio-card {
+    color: var(--color-text);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-top: 4px solid var(--color-accent);
+    border-radius: 0.8rem;
+    box-shadow: var(--shadow-event);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.testimonio-card:hover {
+    box-shadow: var(--shadow-hero);
+    transform: translateY(-3px);
+}
+
+.testimonio-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+}
+
+.testimonio-tipo {
+    margin-bottom: 0.5rem;
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.testimonio-card .card-title {
+    margin-bottom: 0.75rem;
+    color: var(--color-ink);
+    font-size: 1.25rem;
+    font-weight: 750;
+    line-height: 1.35;
+}
+
+.testimonio-cita {
+    margin: 0 0 1rem;
+    padding-left: 1rem;
+    color: var(--color-ink);
+    border-left: 3px solid var(--color-accent);
+    font-size: 1.05rem;
+    font-weight: 650;
+    line-height: 1.6;
+}
+
+.testimonio-cita p {
+    margin: 0;
+}
+
+.testimonio-contexto {
+    margin-bottom: 1.25rem;
+    line-height: 1.65;
+}
+
+.testimonio-enlace {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: auto;
+    color: var(--color-accent);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.testimonio-enlace:hover {
+    color: var(--color-ink);
+    text-decoration: underline;
+}
+
+.testimonio-enlace:focus-visible {
+    border-radius: 0.2rem;
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
